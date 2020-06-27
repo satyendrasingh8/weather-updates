@@ -97,6 +97,13 @@ input{
         color:#797575;
         text-align: center;
     }
+    .aboutText {
+        color:#797575;
+        font-family: fantasy;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
 
     .rotating-box {
         width:400px;

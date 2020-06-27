@@ -12,8 +12,8 @@ const forecast =(lon,lat,callback)=>{
                 callback('unable to find',undefined)
             }
             else {
-                callback(undefined,' temperature is : ' 
-           +body.main.temp+ ' and humidity is : '+body.main.humidity+'%'+'   wind speed : ' +body.wind.speed +'km/h'
+                callback(undefined,' Temperature is : ' 
+           +body.main.temp+ ' and Humidity is : '+body.main.humidity+'%'+'   wind speed : ' +body.wind.speed +'km/h'
                 )
             }
         })
