@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="/css/style.css" >
+<link rel="icon" href="/img/wlogo.png" >
+    <title>Weather </title>
+</head>
+<body>
+
+<div class="main-content">
+{{>header}}
+<p class="indexHeader"> Get live Weather Report</p>
+
+
+<form>
+    <input placeholder="Enter Location" >
+    <button>search </button>
+</form>
+<p id='message-1'>
+
+</p>
+<p id='message-2'>
+
+</p>
+</div>
+<div class="rotating-box">
+<div class="single-rb">
+
+ <div class="front-side"> <img src="/img/weather-1.gif" alt=""> </div>
+ <div class="back-side"><img src="/img/weather-5.gif" alt="">  </div>
+ <div class="left-side"><img src="/img/weather-7.gif"  alt="">  </div>
+ <div class="right-side"><img src="/img/weather-4.png" alt="">  </div>
+ <div class="top-side"> <img src="/img/weather-5.gif" alt=""> </div>
+ <div class="bottom-side"><img src="/img/weather-6.png"  alt="">  </div>
+
+</div>
+
+
+</div>
+
+
+
+<div>
+    
+    <img src="/img/weather-8.gif" >
+</div>
+
+
+
+
+<script src='/js/app.js'> </script>
+{{>footer}}
+</body>
+</html>
