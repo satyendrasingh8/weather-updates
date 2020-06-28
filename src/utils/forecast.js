@@ -14,6 +14,7 @@ const forecast =(lon,lat,callback)=>{
             else {
                 callback(undefined,' Temperature is : ' 
            +body.main.temp+ ' and Humidity is : '+body.main.humidity+'%'+'   wind speed : ' +body.wind.speed +'km/h'
+           + "  Weather conditions : "+body.weather[0].description
                 )
             }
         })
