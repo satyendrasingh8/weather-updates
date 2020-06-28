@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     max-width:650px;
-    margin:16px auto;
+    margin:0 auto;
     padding:18px auto;
 
     
@@ -67,7 +67,7 @@ input{
  border-radius: 5px;
  border:1px solid #333;
  padding:6px;
- margin-bottom:20px ;
+ margin-bottom:10px ;
 }
 
 
