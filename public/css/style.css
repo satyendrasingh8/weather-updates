@@ -22,8 +22,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     max-width:650px;
-    margin:0 auto;
+    margin:16px auto;
     padding:18px auto;
+
     
     
 
@@ -106,65 +107,65 @@ input{
 
 
     .rotating-box {
-        width:400px;
-        height:400px;
+        width:200px;
+        height:200px;
         margin:10px auto;
-        perspective:800px;  
-        margin-bottom: 300px;
+        perspective:1400px;  
+        margin-bottom: 70px;
         
 }
 
 .single-rb {
-    width:400px;
+    width:200px;
     animation:rotate 15s linear infinite;
     transform-style: preserve-3d;
-    margin-top:100px;
+    margin-top:40px;
 }
 
 .single-rb img {
-    height:400px;
-    width:400px;
-    border-radius: 20px;    
+    height:200px;
+    width:200px;
+    border-radius: 15px;    
 }
 
 
 .single-rb div {
     position:absolute;
-    height:400px;
-    width:400px;
+    height:200px;
+    width:200px;
 }
 .front-side {
-    transform:translateZ(200px);
+    transform:translateZ(100px);
 }
 
 .back-side {
     transform:rotateY(180deg)
-    translateZ(200px);
+    translateZ(100px);
 }
 
 
 .left-side {
     transform:rotateY(-90deg)
-    translateX(-200px);
+    translateX(-100px);
     transform-origin: left;
 }
 
 .right-side {
     transform:rotateY(90deg)
-    translateX(200px);
+    translateX(100px);
     transform-origin: right;
 }
 
 .top-side {
     transform:rotateX(-90deg)
-    translateY(-200px);
+    translateY(-100px);
     transform-origin: top;
 }
 
 
 .bottom-side {
     transform:rotateX(90deg)
-    translateY(200px);
+    translateY(100px);
     transform-origin: bottom;
 }
 
